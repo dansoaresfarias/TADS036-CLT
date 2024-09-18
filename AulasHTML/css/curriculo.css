@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofadi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Ubuntu", sans-serif;
 }
 
 table {
@@ -11,18 +13,24 @@ table {
 
 td {
     border: 1px solid #dddddd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
     padding: 8px;
 }
 
 th {
     border: 1px solid #dddddd;
+    background-color: #384B70;
+    color: #FCFAEE;
     text-align: center;
+    text-shadow: #fff9f3;
+    font-size: 30px;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: rgb(80, 118, 135);
+    color: white;
 }
 
 address {
@@ -36,22 +44,37 @@ footer {
     text-align: center;
 }
 
-img {
-    width: 80%;
-    height: 80%;
-    border-radius: 20%;
-}
-
 iframe {
     width: 80%;
-    height: 250px;
-    margin-left: 10%; 
+    height: 350px;
+    margin-left: 10%;
 }
 
 hr {
     width: 80%;
     margin-left: 10%;
 }
+
+ul {
+    list-style-type: circle;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
 
 #apresentacao {
     text-align: center;
@@ -70,4 +93,19 @@ hr {
 
 .apresentacao {
     text-align: left;
+}
+
+#center {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#foto {
+    width: 20%;
+    height: 20%;
+    border-radius: 20%;
+}
+
+body {
+    background-image: linear-gradient(to top, #507687, #689096, #87a8a4, #aac1b5, #ced9ca, #e1e3d5, #f1eee3, #fff9f3, #fffaf8, #fffbfc, #fffdff, #ffffff);
 }
