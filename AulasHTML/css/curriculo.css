@@ -59,6 +59,11 @@ ul {
     list-style-type: circle;
 }
 
+
+body {
+    background-image: linear-gradient(to top, #507687, #689096, #87a8a4, #aac1b5, #ced9ca, #e1e3d5, #f1eee3, #fff9f3, #fffaf8, #fffbfc, #fffdff, #ffffff);
+}
+
 a:link {
     color: #FF0000;
 }
@@ -88,7 +93,7 @@ a:active {
 
 #endereco {
     width: 80%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .apresentacao {
@@ -106,6 +111,16 @@ a:active {
     border-radius: 20%;
 }
 
-body {
-    background-image: linear-gradient(to top, #507687, #689096, #87a8a4, #aac1b5, #ced9ca, #e1e3d5, #f1eee3, #fff9f3, #fffaf8, #fffbfc, #fffdff, #ffffff);
+#sobre{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#formacao{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#experienciaHead{
+    margin-left: 5%;
 }
