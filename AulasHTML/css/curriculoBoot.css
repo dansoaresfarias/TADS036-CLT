@@ -1,0 +1,45 @@
+#foto {
+    width: 80%;
+}
+
+.topBcgSobre {
+    background-color: #16423C;
+    width: 9%;
+}
+
+.topBcgFormacao {
+    background-color: #16423C;
+    width: 30%;
+}
+
+.topBcgExperiencia {
+    background-color: #16423C;
+    width: 32%;
+}
+
+.topBcgContato {
+    background-color: #16423C;
+    width: 26%;
+}
+
+.bcgColor{
+    background-color: #E9EFEC;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.margin {
+    padding: 20px;
+}
+
+.container-dffs {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#bcgFooter {
+    background-color: #16423C;
+    color: #E9EFEC;
+}
