@@ -1,5 +1,5 @@
-#foto {
-    width: 80%;
+a.menuDanilo {
+    color: #E9EFEC;
 }
 
 .topBcgSobre {
@@ -22,7 +22,7 @@
     width: 26%;
 }
 
-.bcgColor{
+.bcgColor {
     background-color: #E9EFEC;
 }
 
@@ -39,7 +39,30 @@
     margin-left: 5%;
 }
 
+#foto {
+    width: 80%;
+}
+
 #bcgFooter {
     background-color: #16423C;
     color: #E9EFEC;
+}
+
+#menuDanilo {
+    
+    background-color: #16423C;
+    color: #E9EFEC;
+}
+
+#apresentacao {
+    padding-top: 40px;
+    scroll-margin-top: 40px;
+}
+
+#sobre {
+    scroll-margin-top: 40px;
+}
+
+#formacao {
+    scroll-margin-top: 40px;
 }
