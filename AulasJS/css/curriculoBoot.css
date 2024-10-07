@@ -1,0 +1,73 @@
+a.menuDanilo {
+    color: #E9EFEC;
+}
+
+address {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.topBcgSobre {
+    background-color: #16423C;
+    width: 9%;
+}
+
+.topBcgFormacao {
+    background-color: #16423C;
+    width: 30%;
+}
+
+.topBcgExperiencia {
+    background-color: #16423C;
+    width: 32%;
+}
+
+.topBcgContato {
+    background-color: #16423C;
+    width: 26%;
+}
+
+.bcgColor {
+    background-color: #E9EFEC;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.margin {
+    padding: 20px;
+}
+
+.container-dffs {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#foto {
+    width: 80%;
+}
+
+#bcgFooter {
+    background-color: #16423C;
+    color: #E9EFEC;
+}
+
+#menuDanilo {
+    
+    background-color: #16423C;
+    color: #E9EFEC;
+}
+
+#apresentacao {
+    padding-top: 40px;
+    scroll-margin-top: 40px;
+}
+
+#sobre {
+    scroll-margin-top: 40px;
+}
+
+#formacao {
+    scroll-margin-top: 40px;
+}
