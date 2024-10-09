@@ -17,5 +17,14 @@ function mudarNome() {
 
     let thay = document.getElementById("danilo");
     thay.innerHTML = "Thayza Silva";
+}
 
+function exponenciacao() {
+    let base = parseInt(document.getElementById("base").value);
+    let exp = parseInt(document.getElementById("exp").value);
+
+    let result = base**exp;
+
+    let tagResult = document.getElementById("resultado");
+    tagResult.innerHTML = "<br><b>Resultado: </b>" + result;
 }

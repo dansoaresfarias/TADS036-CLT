@@ -122,9 +122,30 @@
             <div class="container-sm margin">
                 <h2>Formulário Freelance:</h2>
                 <div class="card topBcgFreelance my-2"></div>
-                <div id="formulario">Futuro formulário de Freelance</div>
-                <button type="button" onclick="mudarNome()"> Clique Aqui!</button>
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="base" placeholder="Base da exponenciação">
+                            <label for="floatingInput">Base da exponenciação</label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="exp" placeholder="Expoente">
+                            <label for="floatingInput">Expoente</label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="exponenciacao()">Calcular</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <p id="resultado"></p>
+                </div>             
             </div>
+            <!-- <div id="formulario">Futuro formulário de Freelance</div>
+                <button type="button" onclick="mudarNome()"> Clique Aqui!</button> -->
+        </div>
         </div>
         <div id="endereco">
             <div class="container-sm margin">
