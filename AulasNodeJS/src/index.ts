@@ -1,12 +1,24 @@
-import { Genero } from "./models/Genero";
+import express, { Application } from "express";
+import cors, { CorsOptions } from "cors";
+import Routes from "./routes/Routes";
 import { AppDataSource } from "./db/data-source";
 
-const generoTeste = new Genero("Terror");
-const genero2 = new Genero("Comedia");
+export default class Server {
+    constructor(app: Application) {
+        this.config(app);
+        new Routes(app);
+    }
 
-// console.log("Olá Mundo, sou a LocaDora!");
-//console.table(generoTeste);
-//console.table(genero2);
+    private config(app: Application): void {
+        const corsOptions: CorsOptions = {
+            origin: "http://localhost:8081"
+        };
+
+        app.use(cors(corsOptions));
+        app.use(express.json());
+        app.use(express.urlencoded({ extended: true }));
+    }
+}
 
 AppDataSource.initialize()
     .then(() => {
